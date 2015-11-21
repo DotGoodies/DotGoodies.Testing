@@ -11,18 +11,20 @@ namespace DotGoodies.Testing.Log4Net
     {
         private static ConcurrentBag<Tuple<string, Exception>> _exceptions;
         private static ConcurrentBag<string> _messages;
-        private static readonly string SelfTestUniqueMessage = $"Self test {Guid.NewGuid()}.";
 
+        private static string _selfTestUniqueMessage;
         private static bool _selfTestPassed = false;
 
         internal static void SetUp()
         {
+            _selfTestUniqueMessage = $"Self test {Guid.NewGuid()}.";
+
             _exceptions = new ConcurrentBag<Tuple<string, Exception>>();
             _messages = new ConcurrentBag<string>();
 
             var testLogger = LogManager.GetLogger(typeof(Log4NetErrorMessagesWatch));
 
-            testLogger.ErrorFormat(SelfTestUniqueMessage);
+            testLogger.ErrorFormat(_selfTestUniqueMessage);
 
             if (!_selfTestPassed)
                 throw new InvalidOperationException("Log4NetErrorMessagesWatch is not properly configured.");
@@ -38,7 +40,7 @@ namespace DotGoodies.Testing.Log4Net
 
         protected override void Append(LoggingEvent loggingEvent)
         {
-            if (loggingEvent.RenderedMessage.Equals(SelfTestUniqueMessage))
+            if (loggingEvent.RenderedMessage.Equals(_selfTestUniqueMessage))
             {
                 _selfTestPassed = true;
                 return;
