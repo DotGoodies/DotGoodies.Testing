@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGoodies.Testing.Log4Net"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGoodies.Testing.ApplicationConfiguration", "DotGoodies.Testing.ApplicationConfiguration\DotGoodies.Testing.ApplicationConfiguration.csproj", "{6C3B08BE-E1BD-4CF0-9061-A2F7EB23E1F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGoodies.Testing.RhinoMocksExtensions", "DotGoodies.Testing.RhinoMocksExtensions\DotGoodies.Testing.RhinoMocksExtensions.csproj", "{086EFE13-35D9-49DF-A14F-C623AA597EB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6C3B08BE-E1BD-4CF0-9061-A2F7EB23E1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C3B08BE-E1BD-4CF0-9061-A2F7EB23E1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C3B08BE-E1BD-4CF0-9061-A2F7EB23E1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086EFE13-35D9-49DF-A14F-C623AA597EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086EFE13-35D9-49DF-A14F-C623AA597EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086EFE13-35D9-49DF-A14F-C623AA597EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086EFE13-35D9-49DF-A14F-C623AA597EB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
