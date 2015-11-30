@@ -19,6 +19,10 @@
     <releaseNotes></releaseNotes>
     <copyright>Copyright &#x00A9; DotGoodies 2015.  All rights reserved.</copyright>
     <tags>unit-test unittest unittesting rhinomocks mocks multithreading concurrent concurrency</tags>
+    <dependencies>
+      <dependency id="LinFu.DynamicProxy.OfficialRelease" version="[1.0.5, 2)" />
+      <dependency id="RhinoMocks" version="[3.6.1, 4)" />
+    </dependencies>
   </metadata>
   <files>
 	<file src="bin\$configuration$\DotGoodies.Testing.RhinoMocksExtensions.dll" target="lib\net45\" />
