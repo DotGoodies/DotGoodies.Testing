@@ -50,9 +50,10 @@
     <Compile Include="LoggingTestAspect.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="log4net.example.config">
+    <None Include="DotGoodies.Testing.Log4Net.nuspec" />
+    <Content Include="log4net.example.config">
       <SubType>Designer</SubType>
-    </None>
+    </Content>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

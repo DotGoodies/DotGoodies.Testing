@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DotGoodies.Testing.Log4Net</id>
+    <version>$version$</version>
+    <title>DotGoodies Testing Log4Net</title>
+    <authors>.Goodies</authors>
+    <owners>.Goodies</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/DotGoodies/DotGoodies</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DotGoodies/DotGoodies/master/DotGoodies.Basics/DotGoodiesLogo_2.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      DotGoodies.Testing.Log4Net helps to configure logging within tests. 
+      It can also intercept error and fatal messages so a test can assert this.
+      An integration or unit test can use it during setting the SUT up and during the assertion phase.
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; DotGoodies 2015.  All rights reserved.</copyright>
+    <tags>unit-test unittest unittesting integration-test integrationtest integrationtesting log4net</tags>
+  </metadata>
+  <files>
+	<file src="bin\$configuration$\DotGoodies.Testing.Log4Net.dll" target="lib\net45\" />
+	<file src="bin\$configuration$\DotGoodies.Testing.Log4Net.pdb" target="lib\net45\" />
+  </files>
+</package>

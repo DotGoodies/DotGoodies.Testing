@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DotGoodies.Testing.ApplicationConfiguration</id>
+    <version>$version$</version>
+    <title>DotGoodies Testing ApplicationConfiguration</title>
+    <authors>.Goodies</authors>
+    <owners>.Goodies</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/DotGoodies/DotGoodies</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DotGoodies/DotGoodies/master/DotGoodies.Basics/DotGoodiesLogo_2.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      DotGoodies.Testing.ApplicationConfiguration provides a programmatic way to change the values stored in application configuration section of a app.config file.
+      An integration or unit test can use it during setting the SUT up.
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; DotGoodies 2015.  All rights reserved.</copyright>
+    <tags>application-configuration configuration app.config unit-test unittest unittesting integration-test integrationtest integrationtesting</tags>
+  </metadata>
+  <files>
+	<file src="bin\$configuration$\DotGoodies.Testing.ApplicationConfiguration.dll" target="lib\net45\" />
+	<file src="bin\$configuration$\DotGoodies.Testing.ApplicationConfiguration.pdb" target="lib\net45\" />
+  </files>
+</package>

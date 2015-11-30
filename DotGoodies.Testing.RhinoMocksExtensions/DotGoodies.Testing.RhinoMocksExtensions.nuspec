@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DotGoodies.Testing.RhinoMocksExtensions</id>
+    <version>$version$</version>
+    <title>DotGoodies testing RhinoMocks extensions.</title>
+    <authors>.Goodies</authors>
+    <owners>.Goodies</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/DotGoodies/DotGoodies</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DotGoodies/DotGoodies/master/DotGoodies.Basics/DotGoodiesLogo_2.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      DotGoodies.Testing.RhinoMocksExtensions provides 3 things for behaviour driven unit tests:
+      * A base class for tests using RhinoMocks.
+      * A way to create thread safe mock that can be called from several threads in parallel. This is to fix a well known bug in version 3.6 of RhinoMocks.
+      * A handful of additional expectation extensions.
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; DotGoodies 2015.  All rights reserved.</copyright>
+    <tags>unit-test unittest unittesting rhinomocks mocks multithreading concurrent concurrency</tags>
+  </metadata>
+  <files>
+	<file src="bin\$configuration$\DotGoodies.Testing.RhinoMocksExtensions.dll" target="lib\net45\" />
+	<file src="bin\$configuration$\DotGoodies.Testing.RhinoMocksExtensions.pdb" target="lib\net45\" />
+  </files>
+</package>

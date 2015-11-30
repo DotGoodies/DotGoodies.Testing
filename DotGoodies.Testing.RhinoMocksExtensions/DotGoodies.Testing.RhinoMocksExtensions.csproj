@@ -56,6 +56,7 @@
     <Compile Include="ThreadSafeMockInterceptor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DotGoodies.Testing.RhinoMocksExtensions.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
